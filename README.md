@@ -10,12 +10,14 @@ This project demonstrates how to **containerize a Flask + MongoDB application** 
 Download and install Docker from the [official website](https://www.docker.com/).
 
 Verify installation:
- -- docker --version
+```bash
+ docker --version
+```
 
-##  Step 2: Build the Docker Image
+###  Step 2: Build the Docker Image
 
 Run the following command in the same directory as your Dockerfile:
- -- docker build -t flask-todo-app:latest .
+  docker build -t flask-todo-app:latest .
 
 
 Verify that the image was built successfully:
