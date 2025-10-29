@@ -17,8 +17,11 @@ Verify installation:
 ###  Step 2: Build the Docker Image
 
 Run the following command in the same directory as your Dockerfile:
+```bash
   docker build -t flask-todo-app:latest .
-
+```
 
 Verify that the image was built successfully:
- -- docker images
+```bash
+  docker images
+ ```
